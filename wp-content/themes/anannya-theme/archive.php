@@ -9,7 +9,14 @@
 
 get_header();
 ?>
-
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+<p>This is archive</p>
+<hr class="d_hr_style">
+        </div>
+    </div>
+</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
