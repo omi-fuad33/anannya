@@ -1,0 +1,55 @@
+/*Initializing css*/
+html, body{
+    padding: 0;
+    margin: 0;
+}
+/*Styling for menu bar*/
+.top_bar{
+    height: 100px;
+}
+.logo2{
+    display: none;
+}
+.logo2_show{
+	display:block;
+	transition: all 1s ease;
+}
+.menu_header{
+    margin-top: 20px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+}
+.menu_bottom{
+    height: 50px;
+    line-height: 50px;
+}
+.menu_bottom_sticky{
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 75%;
+    margin: 0 auto;
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+    
+}
+.menu-main_menu-container ul{
+    text-align: center;
+}
+.menu-main_menu-container ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+.menu-main_menu-container ul li:hover{
+    border-bottom: solid 3px #ED1D24;
+}
+.menu-main_menu-container ul li:active{
+    border-bottom: solid 3px #ED1D24;
+}
+.menu-main_menu-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}

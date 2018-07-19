@@ -51,6 +51,15 @@ if ( ! function_exists( 'anannya_setup' ) ) :
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
 		 */
+        function register_my_menus() {
+              register_nav_menus(
+                array(
+                  'main-menu' => __( 'Main Menu' ),
+                )
+              );
+            }
+            add_action( 'init', 'register_my_menus' );
+        
 		add_theme_support( 'html5', array(
 			'search-form',
 			'comment-form',
@@ -137,6 +146,8 @@ function anannya_scripts() {
     wp_enqueue_script( 'jquerry-library', get_template_directory_uri() . '/js/jquerry.js', array(), '20151215', true );
     
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array(), '20151215', true );
+    
+    wp_enqueue_script( 'omi-js', get_template_directory_uri() . '/js/omi.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
