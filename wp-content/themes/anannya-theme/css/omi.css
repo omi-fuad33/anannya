@@ -1,4 +1,17 @@
-header{
+/*Initializing css*/
+html, body{
+    padding: 0;
+    margin: 0;
+}
+/*Styling for menu bar*/
+.logo2{
+    display: none;
+}
+.logo2_show{
+	display:block;
+	transition: all 1s ease;
+}
+.menu_header{
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
 }
 .menu_bottom{
@@ -11,7 +24,7 @@ header{
     background: white;
     width: 75%;
     margin: 0 auto;
-    transition: all 0.5s ease;
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
     
 }
 .menu-main_menu-container ul{
@@ -19,7 +32,20 @@ header{
 }
 .menu-main_menu-container ul li{
     list-style: none;
+    text-decoration: none;
     display: inline;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
+}
+.menu-main_menu-container ul li:hover{
+    border-bottom: solid 3px #ED1D24;
+}
+.menu-main_menu-container ul li:active{
+    border-bottom: solid 3px #ED1D24;
+}
+.menu-main_menu-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
 }
