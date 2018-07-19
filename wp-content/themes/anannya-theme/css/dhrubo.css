@@ -1,3 +1,51 @@
-.d_archive_header{
+.d_home_image{
+    display: block;
+    height: 1.25rem;
+    width: 1.25rem;
+    float: left;
+    margin-right: 5px;
+}
+.d_override_container{
+    margin-left: -5%;
+    margin-right: -5%;
+}
+hr.style1{
+	border-top: 1.5px solid #8c8b8b;
+    margin-top: -.1%;
+}
+.d_news_box{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba(black, 0.1);
+    border-radius: 3px;
+    background-color: green;
+}
+.d_image_box{
+    width: 40%;
+    height: 12rem;
+    float: left;
+    background-color: red;
+    margin-right: 5px;
     
+}
+.d_post_image{
+    float: left;
+    height: 100%;
+    width: 100%;
+    
+}
+.d_post_image:hover{
+    transform: scale(.95);
+} 
+.d_text_box{
+    width: 55%;
+    height: 12rem;
+    float: left;
+    background-color: yellow;
+}
+.d_heading_text{
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 1px;
 }
