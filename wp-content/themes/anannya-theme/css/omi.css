@@ -4,6 +4,9 @@ html, body{
     margin: 0;
 }
 /*Styling for menu bar*/
+.top_bar{
+    height: 100px;
+}
 .logo2{
     display: none;
 }
@@ -12,6 +15,7 @@ html, body{
 	transition: all 1s ease;
 }
 .menu_header{
+    margin-top: 20px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
 }
 .menu_bottom{

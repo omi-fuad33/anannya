@@ -26,7 +26,7 @@
 <!--  Header menu starts      -->
         <div class="menu_header">
             <div class="menu_container">
-                <div class="top_bar" style="height: 100px;">
+                <div class="top_bar">
                     <div class="row">
                         <div class="col-lg-2">
                         </div>
