@@ -34,7 +34,7 @@ html, body{
     list-style: none;
     text-decoration: none;
     display: inline;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
 }
 .menu-main_menu-container ul li:hover{
@@ -47,5 +47,5 @@ html, body{
     text-decoration: none;
     color: black;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 }

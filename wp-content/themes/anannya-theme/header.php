@@ -23,8 +23,9 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
+<!--  Header menu starts      -->
         <div class="menu_header">
-            <div class="menu_container container">
+            <div class="menu_container">
                 <div class="top_bar" style="height: 100px;">
                     <div class="row">
                         <div class="col-lg-2">
@@ -36,18 +37,21 @@
                         </div>
                     </div>
                 </div>
-                <nav class="menu_bottom">
-                    <div class="row">
-                        <div class="col-lg-2 logo2" style="text-align: center;">
-                            <img src="<?php echo get_template_directory_uri(); ?>/Images/logo2.png" style="height: 40px; width: 150px;">
-                        </div>
-                        <div class="menu_item col-lg-12">
-                            <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+                <nav class="menu_bottom container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2 logo2" style="text-align: center;">
+                                <img src="<?php echo get_template_directory_uri(); ?>/Images/logo2.png" style="height: 40px; width: 150px;">
+                            </div>
+                            <div class="menu_item col-lg-12">
+                                <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+                            </div>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
+<!-- Header menu ends-->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
