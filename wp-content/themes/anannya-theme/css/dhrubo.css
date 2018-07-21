@@ -27,7 +27,7 @@ hr.style1{
 }
 .d_image_box{
     width: 40%;
-    height: 12rem;
+    height: 11rem;
     float: left;
     /*background-color: red;*/
     margin-right: 5px;
@@ -51,7 +51,7 @@ hr.style1{
     margin-top: -.5%;
 }*/
 .d_post_image:hover{
-    transform: scale(.95);
+    /*transform: scale(.95);*/
 } 
 .d_text_box{
     padding: 10px;
@@ -87,4 +87,32 @@ hr.style1{
 hr .d_recentnews_hr{
     padding: 1rem 0rem;
 	border-top: 2px dashed #8B0000;
+}
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    color: #fff;
+    text-decoration:none;
+}
+ 
+.navigation li {
+    display: inline;
+}
+ 
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    background-color: #6FB7E9;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 12px;
+    padding: 0.75rem;
+    
+}
+ 
+.navigation li a:hover,
+.navigation li.active a {
+    background-color: #3C8DC5;
 }
