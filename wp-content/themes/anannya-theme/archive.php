@@ -43,6 +43,7 @@ get_header();
             get_template_part( 'template-parts/content', 'none' );
 
         endif; ?>
+            <?php numeric_posts_nav(); ?>
         </div>
         
         <div class="clearfix"></div>
@@ -74,6 +75,7 @@ get_header();
                 </div>
             </div>
         </div>
+        
         </div>
 	
 
