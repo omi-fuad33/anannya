@@ -1,7 +1,12 @@
 /*Initializing css*/
+*{
+    margin: 0;
+    padding: 0;
+}
 html, body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 /*Styling for menu bar*/
 .top_bar{
