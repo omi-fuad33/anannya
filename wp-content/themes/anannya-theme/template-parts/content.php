@@ -13,17 +13,16 @@
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="d_single_post_heading">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
+			<div class="d_single_date">
 				<?php
-				anannya_posted_on();
-				anannya_posted_by();
+				the_date();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -31,7 +30,7 @@
 
 	<?php anannya_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="d_single_post_content">
 		<?php
 		the_content( sprintf(
 			wp_kses(

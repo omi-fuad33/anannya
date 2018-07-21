@@ -6,7 +6,7 @@
     height: 1.25rem;
     width: 1.25rem;
     float: left;
-    margin-right: 5px;
+    margin: 0 0.5rem 0 0.5rem;
 }
 .d_override_container{
     margin-left: -5%;
@@ -14,6 +14,7 @@
 }
 hr.style1{
 	border-top: 1.5px solid #8c8b8b;
+    width: 100%;
     margin-top: -.1%;
 }
 .d_news_box{
@@ -116,3 +117,60 @@ hr .d_recentnews_hr{
 .navigation li.active a {
     background-color: #3C8DC5;
 }
+
+  /*Style for single post starts*/
+
+.d_post_top{
+    padding: 1rem 0;
+}
+
+hr.style2{
+	border-top: 1.5px solid #8c8b8b;
+    top: -8%;
+} 
+.d_socialmedia_post{
+    background-color: red;
+}
+.d_single_cat_heading{
+    color: red;
+    font-size: 20px;
+    margin: 1rem 0 2rem 0;
+}
+.d_single_post_heading{
+    font-size: 32px;
+    font-weight: 600;
+}
+.d_single_date{
+    padding: 0.5rem 0 1.5rem 0;
+}
+.d_single_post_content{
+    padding: 1rem 0 1rem 0;
+    font-size: 18px;
+    line-height: 1.8;
+}
+ /*Style for single post ends*/
+
+ /*Same Category news sidebar starts*/
+.d_same_cat_news_parent{
+    float: left;
+    width: 100%;
+    position: relative;  
+    margin-top: 11rem;
+}
+.d_same_cat_news{
+    font-size: 18px;
+    font-weight: 600;
+    color: #8B0000;
+}
+.d_cat_heading_text{
+    font-size: 20px;
+    margin-bottom: 1px;
+    font-weight: 400;
+    color: black !important;
+}
+hr.d_same_cat_news_hr{
+    padding: 0.4rem 0rem;
+    background-color: #fff;
+	border-top: 1px dashed #8B0000;
+}
+ /*Same Category news sidebar ends*/
