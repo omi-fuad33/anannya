@@ -12,6 +12,10 @@ html, body{
 .top_bar{
     height: 100px;
 }
+.o_header_logo{
+    width: 350px;
+    height: 100px;
+}
 .logo2{
     display: none;
 }
