@@ -53,10 +53,7 @@ html, body{
     text-align: center;
 }
 .menu-main_menu-container ul li:hover{
-    border-bottom: solid 3px #ED1D24;
-}
-.menu-main_menu-container ul li:active{
-    border-bottom: solid 3px #ED1D24;
+    border-bottom: solid 4px #ED1D24;
 }
 .menu-main_menu-container ul li a{
     text-decoration: none;
