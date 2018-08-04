@@ -1,6 +1,9 @@
 .d_home_top{
     padding: 1rem 0rem;
 }
+p{
+    font-family: "sutonnymjregular"; 
+}
 .d_home_image{
     display: block;
     height: 1.25rem;
@@ -13,7 +16,7 @@
     margin-right: -5%;
 }
 hr.style1{
-	border-top: 1.5px solid #8c8b8b;
+    border-top: 1.5px solid #8c8b8b;
     width: 100%;
     margin-top: -.1%;
 }
@@ -32,13 +35,13 @@ hr.style1{
     float: left;
     /*background-color: red;*/
     margin-right: 5px;
-    
+
 }
 .d_post_image{
     float: left;
     height: 100%;
     width: 100%;
-    
+
 }
 .d_clock_image{
     display: block;
@@ -48,8 +51,8 @@ hr.style1{
     margin-right: 5px;
 }
 /*.d_post_date{
-    position: relative;
-    margin-top: -.5%;
+position: relative;
+margin-top: -.5%;
 }*/
 .d_post_image:hover{
     /*transform: scale(.95);*/
@@ -59,9 +62,9 @@ hr.style1{
     width: 58%;
     height: 12rem;
     float: left;
-/*
+    /*
     background-color: yellow;
-*/
+    */
 }
 .d_heading_text{
     font-size: 20px;
@@ -87,7 +90,7 @@ hr.style1{
 }
 hr .d_recentnews_hr{
     padding: 1rem 0rem;
-	border-top: 2px dashed #8B0000;
+    border-top: 2px dashed #8B0000;
 }
 .navigation li a,
 .navigation li a:hover,
@@ -96,11 +99,11 @@ hr .d_recentnews_hr{
     color: #fff;
     text-decoration:none;
 }
- 
+
 .navigation li {
     display: inline;
 }
- 
+
 .navigation li a,
 .navigation li a:hover,
 .navigation li.active a,
@@ -110,26 +113,26 @@ hr .d_recentnews_hr{
     cursor: pointer;
     padding: 12px;
     padding: 0.75rem;
-    
+
 }
- 
+
 .navigation li a:hover,
 .navigation li.active a {
     background-color: #3C8DC5;
 }
 
-  /*Style for single post starts*/
+/*Style for single post starts*/
 
 .d_post_top{
     padding: 1rem 0;
 }
 
 hr.style2{
-	border-top: 1.5px solid #8c8b8b;
+    border-top: 1.5px solid #8c8b8b;
     top: -8%;
 } 
 .d_socialmedia_post{
-    background-color: red;
+    margin-top: 11rem;
 }
 .d_single_cat_heading{
     color: red;
@@ -144,13 +147,14 @@ hr.style2{
     padding: 0.5rem 0 1.5rem 0;
 }
 .d_single_post_content{
+    font-family: "sutonnymjregular", Arial, sans-serif; 
     padding: 1rem 0 1rem 0;
     font-size: 18px;
     line-height: 1.8;
 }
- /*Style for single post ends*/
+/*Style for single post ends*/
 
- /*Same Category news sidebar starts*/
+/*Same Category news sidebar starts*/
 .d_same_cat_news_parent{
     float: left;
     width: 100%;
@@ -171,11 +175,11 @@ hr.style2{
 hr.d_same_cat_news_hr{
     padding: 0.4rem 0rem;
     background-color: #fff;
-	border-top: 1px dashed #8B0000;
+    border-top: 1px dashed #8B0000;
 }
- /*Same Category news sidebar ends*/
+/*Same Category news sidebar ends*/
 
- /*footer design starts*/
+/*footer design starts*/
 .d_site-footer{
     position: absolute;
     width: 100%;
@@ -251,4 +255,4 @@ hr.d_same_cat_news_hr{
     padding: 1rem;
     font-size: 16px;
 }
- /*footer design ends*/
+/*footer design ends*/

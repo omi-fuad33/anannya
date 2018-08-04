@@ -51,6 +51,10 @@ get_header();
 		endif;
 		?>
                 <h1 class="o_test_headline">This is a test</h1>
+			<div">
+                            
+                            <?php dynamic_sidebar('login'); ?> 
+                            </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
