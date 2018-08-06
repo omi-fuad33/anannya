@@ -34,7 +34,6 @@ get_header();
         <div class="row">
             <div class="col-lg-1 col-md-1">
                 <div class="d_socialmedia_post">
-                    <?php echo wpfai_social(); ?> 
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">

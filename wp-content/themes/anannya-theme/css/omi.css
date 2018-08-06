@@ -62,3 +62,54 @@ html, body{
     font-weight: 500;
     font-size: 14px;
 }
+/*Styles for slides*/
+.carousel-inner{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 500px;
+}
+
+#slider_img{
+    background-color: #f1f1f2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    line-height: 500px;
+}
+.o_slider_headline_box{
+    width: 500px;;
+    height: 70px;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 2px;
+    left: 15%;
+    z-index: 2;
+}
+.o_slider_headline_box h5 a{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 28px;
+    line-height: 70px;
+    color: black;
+}
+.o_slider_headline_box h5 a:hover{
+    text-decoration: none;
+    color: #ed1c24;
+}
+/*Style for advertisement box*/
+.o_landscape_ad_landscape{
+    width: 700px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #b9e6fa;
+    line-height: 90px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+/*Slider rigt*/
+.o_slider_right{
+    background-color: #f1f1f2;
+}
