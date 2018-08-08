@@ -57,7 +57,7 @@ get_header();
                     </div>
 <!-- Advertisement block-->
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 o_slider_right">
             
         </div>
     </div>
