@@ -64,6 +64,7 @@ get_header();
     <div class="o_landscape_ad_landscape">
                     ADVERTISEMENT
                 </div>
+    <h5 class="o_slider_h5"><a class="o_slider_headline"  href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h5>
 </div>
     <?php get_sidebar(); ?>
     <?php get_footer(); ?>
