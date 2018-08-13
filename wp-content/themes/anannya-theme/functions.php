@@ -309,3 +309,4 @@ if (!current_user_can('administrator') && !is_admin()) {
 }
 
 add_image_size( 'slider-thumbnail', 700, 500, true);
+add_image_size( '2nd-row-thumbnail', 200, 120, true);

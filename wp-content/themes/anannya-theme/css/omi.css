@@ -99,6 +99,9 @@ html, body{
     text-decoration: none;
     color: #ed1c24;
 }
+.o_below_advertise1{
+    margin-top: 40px;
+}
 /*Style for advertisement box*/
 .o_landscape_ad_landscape{
     width: 700px;
@@ -113,4 +116,29 @@ html, body{
 /*Slider rigt*/
 .o_slider_right{
     background-color: #f1f1f2;
+    margin-top: 20px;
+    height: 500px;
+}
+/*front page 2nd row 1st post*/
+.o_2nd_row_post1{
+    background-color: #f1f1f2;
+}
+.o_2nd_row_img{
+    width: 200px;
+    height: 120px;
+}
+.o_2nd_row_cat{
+    color: #ed1c24;
+    font-size: 18px;
+}
+.o_2nd_row_1_title{
+    color: black;
+    font-size: 20px;
+}
+.o_2nd_row_2_title{
+    color: black;
+    font-size: 20px;
+}
+.o_2nd_row_2_title_box{
+    border-bottom: 3px dotted #ed1c24;
 }
