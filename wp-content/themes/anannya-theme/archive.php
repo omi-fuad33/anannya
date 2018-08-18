@@ -10,44 +10,74 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<div class="container">
+    <!-- <div class="d_override_container">-->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="d_home_top">
+                <img class="d_home_image" src="http://localhost/anannya/wp-content/uploads/2018/07/home.png">
+                <img class="d_home_image" src="http://localhost/anannya/wp-content/uploads/2018/07/arrow.png">
+                <?php single_cat_title(); ?>
 
-		<?php if ( have_posts() ) : ?>
+                <hr class="style1">
+            </div>
+        </div>
+    </div>
+</div>
 
-			<header class="page-header">
-				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-8">
+            <?php
+            if ( have_posts() ) : ?>
+            <?php
+            /* Start the Loop */
+            while ( have_posts() ) : the_post();
+            get_template_part( 'template-parts/content', 'blog' );
+            endwhile; ?>
+            <div class="clearfix"></div>
+            <?php
+            else :
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+            get_template_part( 'template-parts/content', 'none' );
 
-			endwhile;
+            endif; ?>
+            <?php numeric_posts_nav(); ?>
+        </div>
 
-			the_posts_navigation();
+        <div class="clearfix"></div>
+        <div class="col-lg-4 col-md-4">
+            <div class="d_recent_news_parent">
+                <div class="d_recent_news">
+                    <p class="d_recent_heading">সর্বশেষ</p>
+                    <hr class="style1">
+                    <?php $counter = 0; ?>
+                    <?php
+                    $recent_posts=new WP_Query('posts_per_page=4');
+                    if($recent_posts->have_posts()): 
+                    while($recent_posts->have_posts()): $recent_posts->the_post(); ?>
+                    <a class="d_heading_text" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                    <?php if($counter <3)
+{ ?>
+                    <hr class="d_recentnews_hr">
+                    <?php $counter++;
+} ?>
 
-		else :
+                    <?php
 
-			get_template_part( 'template-parts/content', 'none' );
+                    endwhile; 
+                    endif;
+                    ?>
 
-		endif;
-		?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 
 <?php
-get_sidebar();
 get_footer();
